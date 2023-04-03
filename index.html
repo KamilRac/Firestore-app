@@ -13,8 +13,8 @@
   </div>
 
   <div class="form-group">
-    <label for="description">Description:</label>
-    <textarea class="form-control" id="description" name="description"></textarea>
+    <label for="description">End-By Date:</label>
+    <textarea class="form-control" id="date" name="date"></textarea>
   </div>
 
   <button type="submit" class="btn btn-primary">Add Product</button>
@@ -103,13 +103,13 @@ element.appendChild(para);
 //     // Get the data from the form's input fields
 //     var name = form.elements.name.value;
 //     var price = form.elements.price.value;
-//     var description = form.elements.description.value;
+//     var date = form.elements.date.value;
 
 //     // Add the data to Firestore
-//     db.collection('products').add({
+//     db.collection('food').add({
 //       name: name,
 //       price: price,
-//       description: description
+//       end-by date: date
 //     })
 //     .then(function(docRef) {
 //       console.log('Document written with ID: ', docRef.id);
